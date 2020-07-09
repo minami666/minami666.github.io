@@ -1,0 +1,21 @@
+// -------- ２：メニュー ---------
+.menu{
+  border-top: 1px solid rgb(211, 211, 211);
+  border-bottom: 1px solid rgb(211, 211, 211);
+  &__box{
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__border_list{
+      border-right: 1px solid rgba(195, 195, 195, 0.4);
+    }
+    li{
+      padding-right: 15px;
+      a{
+        font-size: 10px;
+      }
+    }
+  }
+}

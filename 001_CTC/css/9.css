@@ -1,0 +1,30 @@
+.footer {
+  background-color: red;
+}
+
+.footer__box {
+  height: 50px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__box__left p {
+  color: #343434;
+  font-size: 8px;
+}
+
+.footer__box__right {
+  height: 60%;
+}
+
+.footer__box__right img {
+  height: 100%;
+}
+/*# sourceMappingURL=9.css.map */

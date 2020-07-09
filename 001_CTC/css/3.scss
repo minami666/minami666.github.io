@@ -1,0 +1,14 @@
+// -------- ３：見出し ---------
+.title{
+  text-align: center;
+  &__box{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    p{
+      display: inline;
+      text-align: left;
+    }
+  }
+}

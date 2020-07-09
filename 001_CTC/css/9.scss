@@ -1,0 +1,24 @@
+// -------- ９：フッター ---------
+.footer{
+  background-color: rgb(255, 0, 0);
+  &__box{
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    &__left{
+      p{
+        color: rgb(52, 52, 52);
+        font-size: 8px;
+      }
+    }
+    &__right{
+      height:  60%;
+      img{
+        height: 100%;
+      }
+    }
+  }
+}

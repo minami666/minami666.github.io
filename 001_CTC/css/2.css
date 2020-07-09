@@ -1,0 +1,31 @@
+.menu {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.menu__box {
+  height: 40px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu__box__border_list {
+  border-right: 1px solid rgba(195, 195, 195, 0.4);
+}
+
+.menu__box li {
+  padding-right: 15px;
+}
+
+.menu__box li a {
+  font-size: 10px;
+}
+/*# sourceMappingURL=2.css.map */

@@ -1,0 +1,27 @@
+.breadcrumb {
+  text-align: center;
+  border-bottom: 1px solid #adadad;
+}
+
+.breadcrumb__box {
+  display: inline-block;
+}
+
+.breadcrumb__box__text {
+  height: 50px;
+}
+
+.breadcrumb__box__text__nav {
+  line-height: 50px;
+}
+
+.breadcrumb__box__text__nav__orderedlist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.breadcrumb__box__text__nav__orderedlist li {
+  padding: 0 10px;
+}
+/*# sourceMappingURL=6.css.map */
