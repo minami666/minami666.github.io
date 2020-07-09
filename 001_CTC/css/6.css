@@ -1,4 +1,6 @@
 .breadcrumb {
+  min-width: 1170px;
+  max-width: 60px;
   text-align: center;
   border-bottom: 1px solid #adadad;
 }

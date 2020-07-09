@@ -1,20 +1,28 @@
 // -------- ２：メニュー ---------
+$caret-color: red;
 .menu{
+  max-width :1050px;
+  min-width :600px;
   border-top: 1px solid rgb(211, 211, 211);
   border-bottom: 1px solid rgb(211, 211, 211);
   &__box{
-    height: 40px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    &__border_list{
-      border-right: 1px solid rgba(195, 195, 195, 0.4);
-    }
-    li{
-      padding-right: 15px;
-      a{
-        font-size: 10px;
+    &__border_lists{
+      width: 100%;
+      li{
+        text-align: center;
+        height: 30px;
+        float: left;
+        background-color: rgb(253, 0, 55);
+        border-right: 1px solid rgba(195, 195, 195, 0.4);
+        a{
+          display: inline-block;
+          padding: 0 5px;
+          font-size: 10%;
+        }
       }
     }
   }

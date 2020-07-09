@@ -6,6 +6,8 @@
 }
 
 .main {
+  max-width: 1050px;
+  min-width: 600px;
   position: absolute;
   top: 170px;
   width: 100%;
@@ -86,6 +88,10 @@
   margin: 5px 0 10px;
 }
 
+.main__box--2__contents__content__box--lists--top a span {
+  color: red;
+}
+
 .main__box--2__contents__content__box--lists--under {
   line-height: 25px;
   display: -webkit-box;
@@ -95,5 +101,17 @@
 
 .main__box--2__contents__content__box--lists--under--left {
   margin-right: 90px;
+}
+
+.main__box--2__contents__content__box--lists--under--left a {
+  text-decoration: none;
+}
+
+.main__box--2__contents__content__box--lists--under--left a span {
+  color: red;
+}
+
+.main__box--2__contents__content__box--lists--under--right a span {
+  color: red;
 }
 /*# sourceMappingURL=4and5.css.map */

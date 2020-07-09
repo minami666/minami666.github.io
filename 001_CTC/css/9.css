@@ -1,4 +1,6 @@
 .footer {
+  max-width: 1050px;
+  min-width: 600px;
   background-color: red;
 }
 

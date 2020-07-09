@@ -1,4 +1,9 @@
+$caret-color: red;
+
 .header{
+  width: 100%;
+  max-width :1050px;
+  min-width :600px;
   height: 48px;
   &__line{
     border:1px solid rgb(5, 143, 0);
@@ -28,6 +33,9 @@
       text-align: center;
       a{
         padding-right: 2px;
+        span{
+          color: $caret-color;
+        }
       }
     }
     &__search{
@@ -39,11 +47,13 @@
         padding-top: 3px;
         font-size: 7px;
         .header-links{
-          display: flex;
-          a{
-            padding-right: 2px;
-            span{
-              color: rgb(255, 0, 0);
+          ul{
+            display: flex;
+            a{
+              padding-right: 2px;
+              span{
+                color: $caret-color;
+              }
             }
           }
         }

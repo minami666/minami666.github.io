@@ -1,3 +1,4 @@
+$caret-color: red;
 // -------- ４：ボーダー ---------
 .border{
   height: 650px;
@@ -8,6 +9,8 @@
 
 // -------- ５：メインコンテンツ ---------
 .main{
+  max-width :1050px;
+  min-width :600px;
   position: absolute;
   top: 170px;
   width: 100%;
@@ -54,14 +57,30 @@
               margin-left:10px;
               &--top{
                 margin: 5px 0 10px;
+                a{
+                  span{
+                    color: $caret-color;
+                  }
+                }
               }
               &--under{
                 line-height: 25px;
                 display: flex;
                 &--left{
                   margin-right: 90px;
+                  a{
+                    text-decoration: none;
+                    span{
+                      color: rgb(255, 0, 0);
+                    }
+                  }
                 }
                 &--right{
+                  a{
+                    span{
+                      color: $caret-color;
+                    }
+                  }
                 }
               }
             }

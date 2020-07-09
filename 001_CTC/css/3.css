@@ -1,4 +1,6 @@
 .title {
+  min-width: 1170px;
+  max-width: 60px;
   text-align: center;
 }
 

@@ -1,4 +1,6 @@
 .links {
+  max-width: 1050px;
+  min-width: 600px;
   background-color: #d9d9d9;
   font-size: 10px;
 }
@@ -37,12 +39,24 @@
   width: 33%;
 }
 
+.links__box__left__columns__column1 a span {
+  color: red;
+}
+
 .links__box__left__columns__column2 {
   width: 33%;
 }
 
+.links__box__left__columns__column2 a span {
+  color: red;
+}
+
 .links__box__left__columns__column3 {
   width: 34%;
+}
+
+.links__box__left__columns__column3 a span {
+  color: red;
 }
 
 .links__box__right {

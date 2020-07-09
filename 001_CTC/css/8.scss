@@ -1,17 +1,22 @@
 // -------- ８： リンク２---------
 .links02{
+  max-width :1050px;
+  min-width :600px;
   background-color: rgb(115, 115, 115);
   &__box{
     margin: 0 auto;
     height: 30px;
     display: flex;
     align-items: center;
-    li{
-      font-size: 9px;
+    ul{
       display: flex;
-      a{
-        padding: 0 15px 0;
-        color: #fff;
+      li{
+        font-size: 9px;
+        display: flex;
+        a{
+          padding: 0 10px 0;
+          color: #fff;
+        }
       }
     }
   }

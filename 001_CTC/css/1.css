@@ -1,4 +1,7 @@
 .header {
+  width: 100%;
+  max-width: 1050px;
+  min-width: 600px;
   height: 48px;
 }
 
@@ -42,6 +45,10 @@
   padding-right: 2px;
 }
 
+.header__box__language a span {
+  color: red;
+}
+
 .header__box__search {
   width: 55%;
   display: -webkit-box;
@@ -58,17 +65,17 @@
   font-size: 7px;
 }
 
-.header__box__search__contents .header-links {
+.header__box__search__contents .header-links ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.header__box__search__contents .header-links a {
+.header__box__search__contents .header-links ul a {
   padding-right: 2px;
 }
 
-.header__box__search__contents .header-links a span {
+.header__box__search__contents .header-links ul a span {
   color: red;
 }
 

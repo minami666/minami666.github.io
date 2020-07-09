@@ -1,16 +1,27 @@
-body {
+html {
+  background-color: #00ff0d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body {
+  width: 100%;
   list-style: none;
 }
 
-body a {
+html body a {
   text-decoration: none;
 }
 
-body .box {
-  width: 65%;
+html body .box {
+  width: 60%;
 }
 
-body span {
+html body span {
   font-size: 6px;
   margin: 0 2px;
 }
