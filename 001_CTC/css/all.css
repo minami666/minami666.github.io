@@ -13,7 +13,8 @@ html body span {
 
 .head_border {
   height: 3px;
-  background-color: #1900ff;
+  background: -webkit-gradient(linear, right top, left top, from(blue), color-stop(#6098ff), to(blue));
+  background: linear-gradient(to left, blue, #6098ff, blue);
 }
 
 .header {
@@ -85,7 +86,7 @@ html body span {
 }
 
 .header__box__search__contents .header-links ul a {
-  padding-right: 2px;
+  padding: 0 10px;
 }
 
 .header__box__search__contents .header-links ul a span {
@@ -140,12 +141,13 @@ html body span {
 
 .menu__box__2 {
   margin: 4px 15px;
+}
+
+.menu__box__2__border_lists {
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -153,30 +155,34 @@ html body span {
 
 .menu__box__2__border_lists li {
   height: 30px;
-  float: left;
-  border-right: 1px solid rgba(195, 195, 195, 0.4);
 }
 
-.menu__box__2__border_lists__list {
-  height: 27px;
-  width: 80px;
-  margin: 3px;
-  border-radius: 5%;
-  margin: 0 auto;
+.menu__box__2__border_lists li__list {
+  line-height: 30px;
 }
 
-.menu__box__2__border_lists__list:hover {
-  background-color: #206eff;
-  color: #fff;
-  cursor: pointer;
-}
-
-.menu__box__2__border_lists__list a {
+.menu__box__2__border_lists li a {
+  height: 100%;
+  width: 100%;
   text-align: center;
-  line-height: 27px;
+  padding: 7px 15px 8px;
   margin: 0 3px;
   font-size: 10px;
   color: #3f3f3f;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.menu__box__2__border_lists li a:hover {
+  border-radius: 5%;
+  background-color: #009ffc;
+  color: #fff;
+}
+
+.menu__box__2__border_lists .list_border-right {
+  border-right: 1px solid rgba(194, 194, 194, 0.4);
 }
 
 .title {
@@ -201,11 +207,15 @@ html body span {
   text-align: left;
 }
 
-.border {
-  height: 650px;
-  border-top: 60px solid #0411c7;
-  border-bottom: 3px solid #4d4d4d;
+.blue_border {
+  height: 60px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#006eff), color-stop(#7fb6ff), to(#72a4ff));
+  background: linear-gradient(#006eff, #7fb6ff, #72a4ff);
   position: relative;
+}
+
+.white {
+  height: 620px;
 }
 
 .main {
@@ -312,6 +322,7 @@ html body span {
 
 .breadcrumb {
   text-align: center;
+  border-top: 3px solid #4d4d4d;
   border-bottom: 1px solid #adadad;
   margin: 0 auto;
 }
@@ -374,28 +385,15 @@ html body span {
   line-height: 20px;
 }
 
-.links__box__left__columns__column1 {
-  height: 100%;
-  width: 33%;
+.links__box__left__columns__column {
+  width: calc(100% / 3);
 }
 
-.links__box__left__columns__column1 a span {
-  color: red;
+.links__box__left__columns__column a {
+  color: #3f3f3f;
 }
 
-.links__box__left__columns__column2 {
-  width: 33%;
-}
-
-.links__box__left__columns__column2 a span {
-  color: red;
-}
-
-.links__box__left__columns__column3 {
-  width: 34%;
-}
-
-.links__box__left__columns__column3 a span {
+.links__box__left__columns__column a span {
   color: red;
 }
 
@@ -484,12 +482,6 @@ html body span {
 .links02__box ul li a {
   padding: 0 10px 0;
   color: #fff;
-}
-
-.footer {
-  max-width: 1050px;
-  min-width: 600px;
-  background-color: red;
 }
 
 .footer__box {
