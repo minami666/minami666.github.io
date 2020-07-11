@@ -4,11 +4,11 @@
 }
 
 .header {
-  height: 48px;
   margin: 0 auto;
 }
 
 .header__box {
+  height: 48px;
   width: 750px;
   display: -webkit-box;
   display: -ms-flexbox;
