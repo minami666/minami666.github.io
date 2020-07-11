@@ -1,24 +1,9 @@
-html {
-  background-color: #00ff0d;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 html body {
-  width: 100%;
   list-style: none;
 }
 
 html body a {
   text-decoration: none;
-}
-
-html body .box {
-  width: 60%;
 }
 
 html body span {

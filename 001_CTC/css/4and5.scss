@@ -9,24 +9,24 @@ $caret-color: red;
 
 // -------- ５：メインコンテンツ ---------
 .main{
-  max-width :1050px;
-  min-width :600px;
   position: absolute;
-  top: 170px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   &__box{
+    width :750px;
+    margin: 0 auto;
     filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
     background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
     &--2{
       width: 95%;
       height: 584px;
       padding: 20px 0 40px;
       border-top: 3px solid rgb(8, 4, 255);
       background-color: #fff;
+      margin: 0 auto;
       &__contents{
         &--message{
           font-weight: bold;

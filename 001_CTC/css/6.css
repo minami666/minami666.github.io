@@ -1,11 +1,13 @@
 .breadcrumb {
-  min-width: 1170px;
-  max-width: 60px;
+  max-width: 1050px;
+  min-width: 600px;
   text-align: center;
   border-bottom: 1px solid #adadad;
+  margin: 0 auto;
 }
 
 .breadcrumb__box {
+  width: 750px;
   display: inline-block;
 }
 

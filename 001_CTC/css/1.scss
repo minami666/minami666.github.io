@@ -1,14 +1,15 @@
 $caret-color: red;
 
+.head_border{
+  height: 3px;
+  background-color: rgb(25, 0, 255);
+}
+
 .header{
-  width: 100%;
-  max-width :1050px;
-  min-width :600px;
   height: 48px;
-  &__line{
-    border:1px solid rgb(5, 143, 0);
-  }
+  margin: 0 auto;
   &__box{
+    width :750px;
     display: flex;
     margin: 0 auto;
     &__logo{

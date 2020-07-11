@@ -1,9 +1,9 @@
 // -------- ３：見出し ---------
 .title{
-  max-width :1050px;
-  min-width :600px;
   text-align: center;
+  margin: 0 auto;
   &__box{
+    width :750px;
     height: 60px;
     display: flex;
     align-items: center;
