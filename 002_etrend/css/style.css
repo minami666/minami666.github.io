@@ -1,2 +1,178 @@
+.top-border {
+  height: 4px;
+  background-color: #F77D0C;
+}
 
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.box {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header {
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.header__box {
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__box__inner1 {
+  padding: 8px 40px 0 8px;
+}
+
+.header__box__inner1 img {
+  width: 150px;
+}
+
+.header__box__inner2 {
+  position: relative;
+}
+
+.header__box__inner2 input {
+  height: 20px;
+  width: 593px;
+  margin: 10px 0;
+}
+
+.header__box__inner2 .textlines {
+  border: 0.5px solid #cccccc;
+  color: #cccccc;
+  font-size: 12px;
+  border-radius: 0.3em;
+  padding: 0.5em;
+}
+
+.header__box__inner2 .fa-search {
+  position: absolute;
+  top: 19px;
+  left: 580px;
+  color: #F77D0C;
+}
+
+.header__box__inner3 {
+  margin-left: 34px;
+  font-size: 1.5em;
+  color: #cccccc;
+}
+
+.header__box__inner3 .fa-bars {
+  padding-top: 15px;
+}
+
+.header__box__inner4 {
+  margin-left: 24px;
+  font-size: 1.5em;
+  color: #cccccc;
+}
+
+.header__box__inner4 .fa-cart-plus {
+  padding-top: 15px;
+}
+
+.menu {
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.menu__box {
+  height: 50px;
+}
+
+.bread {
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.bread__box {
+  height: 80px;
+}
+
+.show {
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.show__box {
+  height: 637px;
+}
+
+.slider1 {
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.slider1__box {
+  height: 460px;
+}
+
+.introduction {
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.introduction__box {
+  height: 890px;
+}
+
+.slider2 {
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.slider2__box {
+  height: 490px;
+}
+
+.slider3 {
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.slider3__box {
+  height: 430px;
+}
+
+.slider4 {
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.slider4__box {
+  height: 315px;
+}
+
+.slider5 {
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.slider5__box {
+  height: 315px;
+}
+
+.banners {
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.banners__box {
+  height: 430px;
+}
+
+.blank {
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.blank__box {
+  height: 90px;
+}
+
+.links {
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.links__box {
+  height: 402px;
+}
+
+.footer {
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.footer__box {
+  height: 105px;
+}
+/*# sourceMappingURL=style.css.map */
