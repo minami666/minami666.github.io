@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>My test page</title>
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
   </head>
 
   <body>
@@ -18,15 +20,14 @@
         <div class="header__box__inner1"><img src="https://user-images.githubusercontent.com/55865498/87487251-1e015380-c678-11ea-920a-66ac2c1b532f.png" alt=""></div>
         <!-- フォーム -->
         <div class="header__box__inner2">
-          <input class="textlines" placeholder="カテゴリ メーカー 商品名など">
-
-            <i class="fas fa-search"></i>
-
+          <input class="textlines" placeholder="カテゴリ メーカー 商品名など"><i class="fas fa-search"></i></div>
+        <div class="header__box__inner3">
+          <div class="header__box__inner3--1">ご利用ガイド<span class="fas fa-angle-down"></span></div>
+          <div class="header__box__inner3--2">お客様情報<span class="fas fa-angle-down"></span></div>
+          <div class="header__box__inner3--3">FAQ<span class="fas fa-angle-down"></span></div>
         </div>
         <!-- ハンバーガーメニュー -->
-        <div class="header__box__inner3">
-          <i class="fas fa-bars"></i>
-        </div>
+        <!-- <div class="header__box__inner3"><i class="fas fa-bars"></i></div> -->
         <!-- カートへのリンク -->
         <div class="header__box__inner4">
           <i class="fas fa-cart-plus"></i>
@@ -59,7 +60,14 @@
     <div class="show">
       <div class="show__box box">
         <div class="show__box__left">
-          <div class="show__box__left__top"><img src="https://user-images.githubusercontent.com/55865498/87487254-1e99ea00-c678-11ea-944c-643563542dd8.jpg" alt=""></div>
+          <div class="show__box__left__top">
+              <div class="show__box__left__top--1">
+                  <img src="https://user-images.githubusercontent.com/55865498/87487254-1e99ea00-c678-11ea-944c-643563542dd8.jpg" alt="">
+              </div>
+              <div class="show__box__left__top--2">
+                <img src="https://user-images.githubusercontent.com/55865498/87487254-1e99ea00-c678-11ea-944c-643563542dd8.jpg" alt="">
+              </div>
+          </div>
           <div class="show__box__left__middle"><p>商品バリエーション</p></div>
           <div class="show__box__left__bottom">
             <ul>
@@ -73,8 +81,8 @@
         <div class="show__box__right">
           <div class="show__box__right__top">
             <p class="show__box__right__top--1">小型・軽量、なのに本格的！</p>
-            <p class="show__box__right__top--2">キヤノン EOS Kiss X10 EF-S18-55</p>
-            <p class="show__box__right__top--3">IS STM レンズキット シルバー</p>
+            <p class="show__box__right__top--2">キヤノン EOS Kiss X10 EF-S18-55 IS STM レンズキット シルバー</p>
+            <p class="show__box__right__top--3"></p>
             <p class="show__box__right__top--4">
               <span class="show__box__right__top--4--1">￥74,250</span>
               <span class="show__box__right__top--4--2">(税込)</span>
@@ -104,11 +112,15 @@
             </div>
             <div class="show__box__right__middle__bottom">
               <input class="show__box__right__middle__bottom--1" type="checkbox">
-              <span class="show__box__right__middle__bottom--2"></span>
+              <span class="show__box__right__middle__bottom--2 fas fa-heart"></span>
               <p class="show__box__right__middle__bottom--3">3年間あんしん保証パックの追加[<a href="">?</a>]</p>
             </div>
           </div>
-          <div class="show__box__right__bottom">ハロー</div>
+          <div class="show__box__right__bottom">
+            <p>型　番：　〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜</p>
+            <p>発売日：　2019年04月25日</p>
+            <p>詳　細：　<a href="">メーカーページへ <span class="fas fa-check-square"></span></a></p>
+          </div>
         </div>
       </div>
     </div>
