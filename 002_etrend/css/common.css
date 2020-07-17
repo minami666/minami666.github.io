@@ -1,5 +1,7 @@
 html body {
+  z-index: 0;
   list-style: none;
+  min-height: 100vh;
 }
 
 html body a {
@@ -695,7 +697,6 @@ html body a:hover {
 
 .links {
   background-color: #EEEEEE;
-  border-bottom: 1px solid #b0acac;
 }
 
 .links__box {
@@ -735,10 +736,60 @@ html body a:hover {
 
 .footer {
   background-color: #EEEEEE;
-  border-bottom: 1px solid #b0acac;
 }
 
 .footer__box {
   height: 105px;
+}
+
+.footer__box__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__box__left--left img {
+  width: 237px;
+  margin-right: 20px;
+}
+
+.footer__box__left--right {
+  position: relative;
+}
+
+.footer__box__left--right ul {
+  position: absolute;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: bottom;
+}
+
+.footer__box__left--right ul li img {
+  width: 37px;
+  margin-right: 5px;
+}
+
+.bottom_fix {
+  z-index: 1;
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  width: 100%;
+  text-align: right;
+}
+
+.bottom_fix__top {
+  margin-bottom: 40px;
+}
+
+.bottom_fix__top img {
+  padding-right: 6px;
+  width: 40px;
+}
+
+.bottom_fix__bottom img {
+  width: 50px;
 }
 /*# sourceMappingURL=common.css.map */
