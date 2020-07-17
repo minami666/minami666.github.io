@@ -421,10 +421,22 @@ html body a {
 
 .slider1 {
   border-bottom: 1px solid #b0acac;
+  background-color: #ff6666;
 }
 
 .slider1__box {
   height: 460px;
+  width: 850px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider1__box li img {
+  height: 80px;
 }
 
 .introduction {
