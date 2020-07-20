@@ -427,24 +427,64 @@ html body a:hover {
   padding-top: 4px;
 }
 
-.slider1 {
+.slider {
   border-bottom: 1px solid #b0acac;
-  background-color: #ff6666;
+  text-align: center;
 }
 
-.slider1__box {
-  height: 460px;
-  width: 850px;
+.slider__title {
+  height: 60px;
+  line-height: 60px;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.slider__box {
+  height: 400px;
+}
+
+.slider__box__element {
+  margin-top: 40px;
+  margin-right: 20px;
+  float: left;
+  width: 180px;
+  overflow: hidden;
+}
+
+.slider__box__element:hover {
+  opacity: 0.7;
+}
+
+.slider__box__element img {
+  height: 228px;
+  width: 200px;
+}
+
+.slider__box__element .slider__box__element--2 {
+  margin-top: 5px;
+  width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.slider__box__element .slider__box__element--3 {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.slider__box__element .slider__box__element--4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-.slider1__box li img {
-  height: 80px;
+.slider__box__element .slider__box__element--4--1 {
+  margin-right: 5px;
+  margin-top: 5px;
 }
 
 .introduction {
@@ -685,10 +725,6 @@ html body a:hover {
 
 .banners__box {
   height: 430px;
-}
-
-.blank {
-  border-bottom: 1px solid #b0acac;
 }
 
 .blank__box {

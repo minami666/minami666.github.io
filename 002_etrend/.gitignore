@@ -1,5 +1,5 @@
-/css/*.scss
-/css/*.map
+# /css/*.scss
+# /css/*.map
 /設計図/*.afpub
 /設計図/*.pdf
 /public
