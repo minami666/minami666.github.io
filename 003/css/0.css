@@ -1,0 +1,13 @@
+html body {
+  list-style: none;
+}
+
+html body a {
+  text-decoration: none;
+}
+
+html body span {
+  font-size: 6px;
+  margin: 0 2px;
+}
+/*# sourceMappingURL=0.css.map */
